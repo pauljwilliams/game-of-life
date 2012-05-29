@@ -2,7 +2,8 @@ package com.wakaleo.gameoflife.domain;
 
 public enum Cell {
     // Comment changed to asterix 
-    LIVE_CELL("*"), DEAD_CELL(".");
+    // Added pluses instead of *
+    LIVE_CELL("+"), DEAD_CELL(".");
 
     private String symbol;
 
